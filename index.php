@@ -2,7 +2,7 @@
     $mail_sent = false;
 
     if(isset($_POST['email'])){
-        $to      = 'delgado.jose.pr@gmail.com';
+        $to      = 'old_delgado.jose.pr@gmail.com';
         $subject = "JOSE-DELGADO.COM CONTACT FORM";
         $body    = "You have received a new message from your website contact form.\n\n
                     Here are the details:\n\n
@@ -32,8 +32,8 @@
 					<!--
 					<li><a href="#education">Education</a></li>
 					<li><a href="#experience">Experience</a></li>
-					-->
 					<li><a href="#contact_me">Contact Me</a></li>
+                                        -->
 				</ul>
 			</nav>
 		<!-- About Me -->
@@ -112,6 +112,7 @@
 			</div>
 
 		<!-- Contact -->
+                        <!--
 			<div class="wrapper style4">
 				<article id="contact_me" class="container 75%">
 					<header>
@@ -149,7 +150,7 @@
 					</footer>
 				</article>
 			</div>
-
+                        -->
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
